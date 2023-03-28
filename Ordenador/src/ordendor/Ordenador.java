@@ -14,24 +14,14 @@ public class Ordenador {
 	public String modelo;
 	/* Varibale que almacena el precio total del ordenador*/
 	public double precio;
-	/* Variable que almacena el tamaño de la memoria*/
+	/* Variable que almacena el tamaÃ±o de la memoria*/
 	public int memoria;
-	/* Variable para almacenar la ubicacion donde se encuentra el equipo*/
-	public String ubicacionAula;
 	
-	/*
-	 * Constructor vacio de la clase Ordenador
-	 */
+	
 	public Ordenador() {
 		
 	}
 	
-	/**
-	 * Constructor de la clase ordenador
-	 * @param modelo: modelo del ordenador
-	 * @param precio: precio total del ordenador
-	 * @param memoria: tamaño memoria del ordenador
-	 */
 	public Ordenador(String modelo,double precio,int memoria) {
 		this.memoria = memoria;
 		this.precio = precio;
